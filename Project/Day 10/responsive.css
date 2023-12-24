@@ -1,0 +1,375 @@
+*{
+   
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Montserrat',sans-serif;
+
+}
+.top-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2%;
+    
+    border-bottom: 1px solid #efefef;
+   
+}
+.top-header span{
+    font-size: 12px;
+    font-weight: 60px;
+}
+
+  
+.top-header-left{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.top-header-right{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.icon-wrapper{
+    margin-right: 8px;
+    display: flex;
+    align-items: center;
+    border-left:  1px solid #efefef;
+     
+   
+}
+.icon-wrapper span{
+    margin: 0 8px;
+}
+   .icon-wrapper i{
+    margin-left: 12px;
+   }
+   .top-header-right .icon-wrapper:nth-child(2){
+    border-left: none;
+
+   }
+   .navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+padding: 20px;        
+    
+   }
+    .navbar-left{
+        display: flex;
+    }
+    .navbar-left h2 span{
+        margin-right: 20px ;
+    }
+.navbar-center ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+.navbar-center a{
+    text-decoration: none;
+    color: black;
+
+}
+.navbar-center li{
+padding: 0 10px;    
+}
+.navbar ul a:hover{
+    text-decoration: underline;
+    color: blue;
+}
+
+.search-wraper input{
+padding: 16px 16px 16px 32px;
+outline: none;
+border: 1px solid black;
+}
+.search-wraper i{
+    position: absolute;
+    top: 16px;
+   left: 10px;
+    
+    
+}
+.search-wraper{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+    .information{
+        background-color: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    }
+
+
+.bg-wrapper{
+    
+    padding: 60px;
+}
+.background{
+    height: 400px;
+    background-image: url(https://static1.makeuseofimages.com/wordpress/wp-content/uploads/2022/02/best-workspace-office-desk-setup-featured.jpg);
+display: flex;
+flex-direction: column-reverse;
+padding: 60px;
+background-position: center;
+background-repeat: no-repeat;
+
+}
+.background .sale{
+    font-size: 12px;
+    font-weight: 300;
+}
+.background .title{
+    font-size: 40px;
+line-height: 60px;
+font-weight: 500;
+}
+.content{
+    color: #fff;;
+}
+.background .info{
+    font-size: 18px;
+
+
+}
+.background .shopping-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 300px;
+margin-top: 30px;
+   
+}
+.shopping-wrapper button{
+    outline: none;
+    padding: 8px 20px;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    text-transform: uppercase;
+    font-size: 10px;
+
+}
+.mastercard-wrapper{
+    padding: 60px;
+    display: flex;
+}
+
+
+    .mastercard{
+        background: rgba(255, 255, 255, 0.12);
+border-radius: 16px;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(1.7px);
+-webkit-backdrop-filter: blur(1.7px);
+border: 1px solid rgba(255, 255, 255, 0.29);
+padding: 20px;
+display: flex;   
+flex-direction: column;
+justify-content: space-between;
+height: 260px;
+width: 30%;
+
+
+}
+.mastercard-header sub{
+    font-size: 8px;
+}
+.mastercard-header h4{
+    font-size: 20px;
+}
+.mastercard-body p{
+font-size: 24px;
+}
+.mastercard-body span{
+    margin: 0 8px;
+    
+}
+.mastercard-body span:nth-child(1){
+    margin: 0;
+
+}
+.mastercard-body span:nth-child(2){
+    margin-left: 24px;
+}
+.mastercard-footer{
+    display: flex;
+justify-content: space-between;
+}
+.mastercard-info{
+    display: flex;
+justify-content: space-between;
+flex: 0.8;
+
+
+}
+.mastercard-details h4{
+    color: #44464a;
+    font-weight: 400;
+    line-height: 30px;
+    font-size: 16px;
+}
+.mastercard-details p{
+    color: #2c2d32;
+}
+
+
+.mastercard-logo{
+    display: flex;
+
+}
+.mastercard-circle{
+    background-color: #ff0000;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+}
+.mastercard-circle.first{
+    background-color: rgba(255, 0, 0, 0.5);
+    margin-right: -10px;
+
+}
+.mastercard-circle.second{
+    background-color: rgba(255, 255, 0, 0.5);
+margin-left: -10px;
+}
+
+@media only screen and (max-width: 600px) {
+   
+.top-header span{
+    font-size: 10px;
+    
+}
+.icon-wrapper{
+font-size: 8px;
+}
+.navbar{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px;
+    gap: 20px;
+
+}
+.navbar-left h2{
+    font-size: 16px;
+}
+.navbar-center ul{
+    display: flex;
+    flex-direction: column;
+    
+}
+.navbar-center a{
+    
+    color: black;
+    font-size: 10px;
+
+}
+.navbar-center li{
+padding: 2px 0;    
+}
+
+.search-wraper input{
+    padding: 8px 8px 8px 8px;
+    outline: none;
+    border: 1px solid black;
+    width: 300px;
+    }
+    .search-wraper i{
+        
+        top: 16px;
+       left: 10px;
+       font-size: 8px;        
+        
+    }
+    .search-wraper{
+        position: relative;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .information{
+        background-color: black;
+    color: white;
+    padding: 8px;
+    
+    }
+    .information p{
+font-size: 10px;
+    }
+
+    .bg-wrapper{
+    
+        padding: 10px;
+    }
+    .background{
+        height: 200px;
+       
+    padding: 10px;
+    
+}
+.mastercard-wrapper{
+    padding: 10px;
+    display: flex;
+   flex-direction: column;
+}
+.mastercard{
+   
+
+
+height: 180px;
+width: 34%;
+
+
+}
+.mastercard-header{
+font-size: 8px;
+}
+.mastercard-header h4{
+font-size: 20px;
+}
+.mastercard-body p{
+font-size: 24px;
+}
+.mastercard-body span{
+font-size: 12px;
+
+}
+
+}
+.mastercard-footer{
+display: flex;
+justify-content: space-between;
+}
+.mastercard-info{
+display: flex;
+justify-content: space-between;
+flex: 0.8;
+
+
+}
+.mastercard-details h4{
+
+font-size: 10px;
+}
+.mastercard-details p{
+color: #2c2d32;
+}
+
+
+
+
+
+
+
+}

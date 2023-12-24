@@ -1,0 +1,37 @@
+.country{
+    border: 1px solid black;
+    padding: 20px;
+    text-align: center;
+}
+.salman{
+   display: grid;
+    grid-template-areas: 
+    'leader come come come'
+    'sky sky sky sky'
+    'sun sun earth light'
+    'jacket jacket jacket jacket'
+    
+    
+    ;
+}
+.one{
+    grid-area: leader;
+}
+.two{
+    grid-area: come;
+}
+.three{
+    grid-area: sky;
+}
+.four{
+    grid-area: sun;
+}
+.five{
+    grid-area: earth;
+}
+.six{
+    grid-area: light;
+}
+.seven{
+    grid-area: jacket;
+}

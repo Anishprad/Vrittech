@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inline and inside style tag css</title>
+<style>
+    /* h1 {
+        color: red;
+        background-color: yellow;
+    }
+    h1:nth-child(2){
+        color: blue;
+        background-color: yellow;
+    } */
+    /* id name case */
+h1.first{
+    color:red;
+    background-color: yellow;
+}
+/* class name case */
+h1.first{
+    color:red;
+    background-color: yellow;
+}
+h1#second{
+    font-size: 20px;
+    color: red;
+    background-color: yellow;
+}
+p.paragraph{
+    color: red;
+    margin: 20px;
+ }
+ p.paragraph::first-letter{
+    font-size: 100px;
+ }
+ p.paragraph::first-line{
+    color: blue;
+ }
+
+</style>
+
+  
+
+</head>
+<body>
+    <h1 id="first" class="first">Hello World</h1>
+    <h1 id="second">Hello World</h1>
+    <br>
+    <br>
+<p class="paragraph">
+    HTML element represents a paragraph. Paragraphs are usually represented in visual media as blocks of text separated from adjacent blocks by blank lines and/or first-line indentation, but HTML paragraphs can be any structural grouping of related content, such as images or form fields.
+</p>
+</body>
+</html>

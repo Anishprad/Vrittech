@@ -1,0 +1,111 @@
+*{
+   
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Montserrat',sans-serif;
+}
+.top-header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2%;
+    
+    border-bottom: 1px solid #efefef;
+   
+}
+.top-header span{
+    font-size: 12px;
+    font-weight: 60px;
+}
+
+  
+.top-header-left{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.top-header-right{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.icon-wrapper{
+    margin-right: 8px;
+    display: flex;
+    align-items: center;
+    border-left:  1px solid #efefef;
+     
+   
+}
+.icon-wrapper span{
+    margin: 0 8px;
+}
+   .icon-wrapper i{
+    margin-left: 12px;
+   }
+   .top-header-right .icon-wrapper:nth-child(2){
+    border-left: none;
+
+   }
+   .navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+padding: 20px;        
+    
+   }
+    .navbar-left{
+        display: flex;
+    }
+    .navbar-left h2{
+        margin-right: 20px ;
+    }
+.navbar-center ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+.navbar-center a{
+    text-decoration: none;
+    color: black;
+
+}
+.navbar-center ul li{
+padding: 0 10px;    
+}
+.navbar ul a:hover{
+    text-decoration: underline;
+    color: blue;
+}
+
+.search-wraper input{
+padding: 16px 16px 16px 32px;
+outline: none;
+border: 1px solid black;
+}
+.search-wraper i{
+    position: absolute;
+    top: 16px;
+   left: 10px;
+    
+    
+}
+.search-wraper{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+    .information{
+        background-color: black;
+    color: white;
+    padding: 20px;
+    text-align: center;
+    text-transform: uppercase;
+    }
+
+

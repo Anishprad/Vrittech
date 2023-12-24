@@ -1,0 +1,71 @@
+.grid{
+    border: 1px solid black;
+    padding: 20px;
+}
+.parent{
+    display: grid;
+/* grid-template-columns: repeat(5,1fr);
+column-gap: 20px;
+row-gap: 20px;
+gap: 20px; */
+grid-template-areas:
+'header header header'
+'left content right'
+'footer footer footer';
+
+
+}
+.one{
+    grid-area: header;
+    padding: 30px;
+    background-color: blue;
+}
+.two{
+    grid-area: left;
+    background-color: yellow;
+}
+.three{
+    grid-area: content;
+    background-color: red;
+}
+.four{
+    grid-area: right;
+    background-color: brown;
+}
+.five{
+    grid-area: footer;
+    background-color: green;
+} 
+
+.country{
+    border: 1px solid black;
+    padding: 20px;
+    
+    
+
+}
+/* .father{
+    display: grid;
+  
+    grid-template-areas:
+   'top side side side'
+   'hot hot hot hot'
+   'taste taste love friend'
+   'best best best best'
+   
+   ;
+}
+
+.one{
+    grid-area: top;
+    
+    
+}
+.two{
+    grid-area: side;
+} 
+.three{
+    grid-area: hot;
+
+} 
+  */

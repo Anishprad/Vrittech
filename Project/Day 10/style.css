@@ -1,0 +1,26 @@
+
+@media screen and  (max-width: 400px) {
+    h1{
+        color: red;
+        font-size: 80px;
+       
+       
+    }
+ 
+
+
+}
+@media screen and (min-width: 410px) {
+    h1{
+        color: blue;
+        font-size: 100px;
+       
+    }
+}
+/* @media screen and (1 00px <= width <=800px)  {
+    h1{
+        color: red;
+        font-size: 80px;
+
+    }
+} */
